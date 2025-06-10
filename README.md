@@ -6,7 +6,7 @@ Our goal is to reverse-engineer a continuous dynamical system from its trajector
 
 ## Project Objectives
 This repository contains the code and analysis to achieve the following:
-- **ODE Reconstruction with SINDy**: Identify the unknown polynomials $P(x,y)$ and $Q(x,y)$ that define the continuous dynamical system $\dot{x} = P(x,y)$, $\dot{y} = Q(x,y), where  $P$ and $Q$ are of degree no more than 3. We'll enforce sparsity by setting small coefficients ($<10^{-5}$) to zero.
+- **ODE Reconstruction with SINDy**: Identify the unknown polynomials $P(x,y)$ and $Q(x,y)$ that define the continuous dynamical system $\dot{x} = P(x,y)$, $\dot{y} = Q(x,y)$, where  $P$ and $Q$ are of degree no more than 3. We'll enforce sparsity by setting small coefficients ($<10^{-5}$) to zero.
 - **Trajectory Generation**: Use the Euler method to simulate trajectories from the reconstructed ODE.
 - **Koopman Operator Approximation**: Construct an approximation K of the Koopman operator for the ODE in a basis of monomials up to degree 5, ensuring its determinant falls within a specified range ($10^{-5} < det(K) < 10^{5}$).
 - **Eigenvalue Analysis**: Compute and visualize the eigenvalues of the Koopman matrix $K$ on the complex plane.
