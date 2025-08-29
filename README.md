@@ -1,8 +1,8 @@
 # SINDy & Koopman Operator for Dynamical Systems Analysis
-This project delves into the exciting world of **dynamical systems**, focusing on identifying the underlying Ordinary Differential Equations (ODEs) from observed trajectories and analyzing their behavior using advanced techniques like the **Koopman operator and Sparse Identification of Nonlinear Dynamics (SINDy)**.
+This project delves into the exciting world of **dynamical systems**, focusing on identifying the underlying Ordinary Differential Equations (ODEs) from observed trajectories and analysing their behavior using advanced techniques like the **Koopman operator and Sparse Identification of Nonlinear Dynamics (SINDy)**.
 
 ## Project Overview
-Our goal is to reverse-engineer a continuous dynamical system from its trajectory and velocity data. We'll then use the powerful framework of the Koopman operator to linearize the nonlinear dynamics in an extended function space, enabling us to understand and predict system behavior through its eigenvalues and eigenfunctions.
+Our goal is to reverse-engineer a continuous dynamical system from its trajectory and velocity data. We'll then use the powerful framework of the Koopman operator to linearise the nonlinear dynamics in an extended function space, enabling us to understand and predict system behavior through its eigenvalues and eigenfunctions.
 
 ## Project Objectives
 This repository contains the code and analysis to achieve the following:
